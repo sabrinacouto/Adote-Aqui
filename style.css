@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    width: 100%;
+    background-color: rgb(17, 167, 197);
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+h1{
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1:hover{
+    font-size: 30px;
+    color: rgb(184, 184, 184);
+
+}
+
+#imagem{
+    height: 50px;
+    width: 50px;
+    margin-right: 550px;
+}
+
+nav{
+    
+    width: 40%;
+    background: rgb(111, 221, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.menu{
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    
+}
+
+.menu:hover{
+ color:rgb(255, 255, 255);
+ cursor: pointer;
+
+}
+.container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+background: rgb(255, 255, 255);
+width: 270px;
+height:400px;
+margin: 50px;
+border-radius: 15px;
+font-family: sans-serif;
+}
+
+.card-image{
+    background-color:rgb(17, 167, 197);
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.dog-1{
+    background-image: url(./Cachorro3.jpg);
+}
+
+.dog-2{
+    background-image: url(./Cachorro4.jpg);
+}
+
+.dog-3{
+    background-image: url(./Cachorro1.jpg);
+}
+
+.dog-4{
+    background-image: url(./Cachorro2.jpg);
+}
+
+.dog-5{
+    background-image: url(./Cachorro6.jpg);
+}
+
+.dog-6{
+    background-image: url(./Cachorro7.jpg);
+}
+.dog-7{
+    background-image: url(./Cachorro5.jpg);
+}
+
+.dog-8{
+    background-image: url(./Cachorro9.jpeg);
+}
+
+.dog-9{
+    background-image: url(./Cachorro8.jpg);
+}
+
+.dog-10{
+    background-image: url(./Cachorro10.jpeg);
+}
+
+.dog-11{
+    background-image: url(./Cachorro11.jpeg);
+}
+
+.cat-1{
+    background-image: url(./Gato1.jpeg);
+}
+
+.cat-2{
+    background-image: url(./Gato3.jpg);
+}
+
+.cat-3{
+    background-image: url(./Gato2.jpg);
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card button{
+    outline: none;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: solid 1 px rgb(17, 167, 197);
+    font-size: 15px;
+    line-height: 1;
+    color: rgb(17, 167, 197);
+    padding: 15px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    
+}
+
+.card button:hover,
+.card button:focus{
+background: rgb(17, 167, 197);
+color: rgb(255, 255, 255);
+}
+
+.card button:active{
+    background: rgb(255, 255, 255);
+    color: rgb(17, 167, 197);
+
+}
+.card:hover{
+    background-color:rgb(184, 184, 184);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: all 1s ease;
+}
+footer {
+    width: 100%;
+    min-height: 250px;
+    background-color:rgb(17, 167, 197);
+    display: flex;
+}
+
+footer .box {
+    width:320px;
+    min-height: 150px;
+    padding:20px;
+}
+
+footer .box:nth-child(4) {
+    width: 400px;
+
+}
+ .box h2 {
+     color: white;
+     margin-bottom: 20px;
+ }
+
+ .box ul li{
+     margin: 10 px 0px;
+     list-style: none;
+
+ }
+
+ .box ul li a{
+     color: white;
+     text-decoration: none;
+
+ }
+
+ .box ul li a:hover{
+     color: rgb(184, 184, 184);
+ }
+
+ @media (max-width: 760px){
+
+    .logo, #imagem{
+        display: none;
+        
+
+    }
+    
+    .menu {
+   width: 100%;
+
+    }
+   
+
+    
+ }
+
+
+
+
+
+
+
